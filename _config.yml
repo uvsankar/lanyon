@@ -19,5 +19,13 @@ author:
   url:               https://uvsankar.github.io
   email:             uvsankar94@gmail.com
 
+jekyll_analytics:
+  GoogleAnalytics:
+    id: UA-118573123-1
+    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
+
 # Custom vars
 version:             1.0.0
+
+plugins:
+  - jekyll-analytics
